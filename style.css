@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;600&display=swap');
+
+html {
+    font-size: 16px;
+}
+
+:root {
+    --cyan: hsl(179, 62%, 43%);
+    --bright-yellow: hsl(71, 73%, 54%);
+    --light-gray: hsl(204, 43%, 93%);
+    --greyish-blue: hsl(218, 22%, 67%);
+    --cyan-lighter: hsl(179, 47%, 52%);
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: var(--light-gray);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 2rem;
+}
+
+.top-section {
+    background-color: #ffffff;
+    padding: 2rem;
+}
+
+.top-section .heading {
+    color: var(--cyan);
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.top-section .sub-heading {
+    color: var(--bright-yellow);
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.top-section .copy {
+    color: var(--greyish-blue);
+}
+
+.bottom-section {
+    background-color: var(--cyan);
+    display: flex;
+    flex-direction: column;
+}
+
+.bottom-section .card {
+    padding: 2rem;
+}
+
+.bottom-section .card .heading {
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.bottom-section .card .price {
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.bottom-section .card .price span {
+    font-size: 1rem;
+    color: var(--light-gray);
+    font-weight: normal;
+    margin-left: 1rem;
+}
+
+.bottom-section .card .copy {
+    margin-top: 0.5rem;
+    color: #ffffff;
+}
+
+.bottom-section .card .sign-up-btn {
+    background-color: var(--bright-yellow);
+    color: #ffffff;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-top: 2rem;
+}
+
+.bottom-section .card-lighter {
+    background-color: var(--cyan-lighter);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.bottom-section .card-lighter ul {
+    list-style: none;
+    padding: 0;
+    color: var(--light-gray);
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.bottom-section .card-lighter ul li {
+    line-height: 1.2rem;
+}
