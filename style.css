@@ -21,6 +21,7 @@ body {
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
+    height: 100vh;
 }
 
 .top-section {
@@ -109,4 +110,16 @@ body {
 
 .bottom-section .card-lighter ul li {
     line-height: 1.2rem;
+}
+
+ /* Small Devices, Tablets */
+ @media only screen and (min-width : 768px) {
+     
+    .container {
+        max-width: 1000px;
+        justify-content: center;
+        padding: 0;
+        margin: 0 auto;
+    }
+
 }
