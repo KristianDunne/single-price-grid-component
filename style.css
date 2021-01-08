@@ -132,7 +132,6 @@ body {
     }
 
     .top-section .sub-heading {
-        font-size: 1.5rem;
         margin-top: 1.5rem;
         font-size: 1.5rem;
     }
@@ -141,5 +140,31 @@ body {
         font-size: 1.2rem;
         line-height: 2rem;
     }    
+
+    .bottom-section {
+        flex-direction: row;
+    }
+
+    .bottom-section .card {
+        flex: 1;
+        padding: 3rem;
+    }
+
+    .bottom-section .card .heading {
+        font-size: 1.5rem;
+    }
+
+    .bottom-section .card .price span {
+        font-size: 1.2rem;;
+    }
+
+    .bottom-section .card .copy {
+        font-size: 1.2rem;
+    }
+    
+    .bottom-section .card-lighter ul li {
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
     
 }
