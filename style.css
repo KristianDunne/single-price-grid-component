@@ -99,6 +99,14 @@ body {
     font-size: 1rem;
     margin-top: 2rem;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    cursor: pointer;
+}
+
+.bottom-section .card .sign-up-btn:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
 }
 
 .bottom-section .card-lighter {
