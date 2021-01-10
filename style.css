@@ -42,11 +42,13 @@ body {
 .top-section .sub-heading {
     color: var(--bright-yellow);
     font-weight: 600;
+    font-size: 1rem;
     margin: 1rem 0;
 }
 
 .top-section .copy {
     color: var(--greyish-blue);
+    margin: 0;
 }
 
 .bottom-section {
@@ -62,6 +64,8 @@ body {
 .bottom-section .card .heading {
     color: #ffffff;
     font-weight: 600;
+    font-size: 1.2rem;
+    margin: 0;
 }
 
 .bottom-section .card .price {
@@ -71,6 +75,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 1rem;
+    margin-bottom: 0;
 }
 
 .bottom-section .card .price span {
@@ -83,6 +88,7 @@ body {
 .bottom-section .card .copy {
     margin-top: 0.5rem;
     color: #ffffff;
+    margin-bottom: 0;
 }
 
 .bottom-section .card .sign-up-btn {
@@ -147,6 +153,7 @@ body {
 
     .top-section .heading {
         font-size: 2rem;
+        margin: 0;
     }
 
     .top-section .sub-heading {
