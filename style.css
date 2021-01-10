@@ -21,13 +21,11 @@ body {
     display: flex;
     flex-direction: column;
     padding: 4rem 2rem;
-    height: 100vh;
 }
 
 .content {
     border-radius: 10px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    overflow: hidden;
 }
 
 .top-section {
@@ -135,6 +133,11 @@ body {
         justify-content: center;
         padding: 0;
         margin: 0 auto;
+        height: 100vh;
+    }
+
+    .content {
+        overflow: hidden;
     }
 
     .top-section {
